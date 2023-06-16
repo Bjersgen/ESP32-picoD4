@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GPIO21 Pin=P2-3
+Removed Pin From Net: NetName=GPIO22 Pin=P2-4
+Added Pin To Net: NetName=OLED_SDA Pin=P2-3
+Added Pin To Net: NetName=OLED_SCL Pin=P2-4

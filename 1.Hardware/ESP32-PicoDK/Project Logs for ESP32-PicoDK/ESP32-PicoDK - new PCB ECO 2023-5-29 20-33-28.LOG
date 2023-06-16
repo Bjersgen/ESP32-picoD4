@@ -1,0 +1,15 @@
+Removed Pin From Net: NetName=GPIO13 Pin=K2-2
+Removed Pin From Net: NetName=GPIO13 Pin=K2-4
+Removed Pin From Net: NetName=GPIO38 Pin=P2-3
+Removed Pin From Net: NetName=SENSOR_VN Pin=P2-4
+Removed Pin From Net: NetName=GPIO13 Pin=P3-15
+Removed Pin From Net: NetName=GPIO4 Pin=P3-16
+Removed Pin From Net: NetName=GND Pin=P3-17
+Removed Pin From Net: NetName=GND Pin=U4-49
+Added Pin To Net: NetName=GPIO14 Pin=K2-2
+Added Pin To Net: NetName=GPIO14 Pin=K2-4
+Added Pin To Net: NetName=GPIO21 Pin=P2-3
+Added Pin To Net: NetName=GPIO22 Pin=P2-4
+Added Pin To Net: NetName=CP_Tx Pin=P3-15
+Added Pin To Net: NetName=CP_Rx Pin=P3-16
+Added Pin To Net: NetName=VCC_3V3 Pin=P3-17

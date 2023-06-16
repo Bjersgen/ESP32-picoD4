@@ -1,0 +1,5 @@
+DRC Rules Export File for PCB: C:\Users\60105\Desktop\ESP32-PicoDK-main\ESP32-PicoDK-main\1.Hardware\ESP32-PicoDK\ESP32-PicoDK - new.PcbDoc
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=3.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=6.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=6.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0

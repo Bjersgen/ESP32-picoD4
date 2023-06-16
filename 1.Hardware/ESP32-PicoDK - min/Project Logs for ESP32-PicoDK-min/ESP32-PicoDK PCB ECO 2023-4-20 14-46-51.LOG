@@ -1,0 +1,62 @@
+Removed Pin From Net: NetName=GND Pin=C1-1
+Removed Pin From Net: NetName=VCC_3V3 Pin=C1-2
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Pin From Net: NetName=VCC_3V3 Pin=C2-2
+Removed Pin From Net: NetName=GND Pin=C3-1
+Removed Pin From Net: NetName=GPIO13 Pin=K2-2
+Removed Pin From Net: NetName=GPIO13 Pin=K2-4
+Removed Pin From Net: NetName=VBUS Pin=R1-1
+Removed Pin From Net: NetName=CP_Tx Pin=R3-1
+Removed Pin From Net: NetName=GND Pin=R7-2
+Removed Pin From Net: NetName=GND Pin=R8-2
+Removed Pin From Net: NetName=GND Pin=U1-3
+Removed Pin From Net: NetName=VBUS Pin=U1-7
+Removed Pin From Net: NetName=VBUS Pin=U1-8
+Removed Pin From Net: NetName=CP_Rx Pin=U1-25
+Removed Pin From Net: NetName=GND Pin=U1-29
+Removed Pin From Net: NetName=VBUS Pin=U2-1
+Removed Pin From Net: NetName=GND Pin=U2-2
+Removed Pin From Net: NetName=VBUS Pin=U2-3
+Removed Pin From Net: NetName=VCC_3V3 Pin=U2-5
+Removed Pin From Net: NetName=GND Pin=USB1-1
+Removed Pin From Net: NetName=GND Pin=USB1-2
+Removed Pin From Net: NetName=GND Pin=USB1-3
+Removed Pin From Net: NetName=GND Pin=USB1-4
+Removed Pin From Net: NetName=GND Pin=USB1-A1
+Removed Pin From Net: NetName=VBUS Pin=USB1-A4
+Removed Pin From Net: NetName=VBUS Pin=USB1-A9
+Removed Pin From Net: NetName=GND Pin=USB1-A12
+Removed Pin From Net: NetName=GND Pin=USB1-B1
+Removed Pin From Net: NetName=VBUS Pin=USB1-B4
+Removed Pin From Net: NetName=VBUS Pin=USB1-B9
+Removed Pin From Net: NetName=GND Pin=USB1-B12
+Removed Pin From Net: NetName=EN Pin=VT1-3
+Removed Pin From Net: NetName=GPIO0 Pin=VT2-3
+Removed Member From Class: ClassName=Main Member=C1
+Removed Member From Class: ClassName=Main Member=C2
+Removed Member From Class: ClassName=Main Member=C3
+Removed Member From Class: ClassName=Main Member=R3
+Removed Member From Class: ClassName=Main Member=R4
+Removed Member From Class: ClassName=Main Member=R5
+Removed Member From Class: ClassName=Main Member=R7
+Removed Member From Class: ClassName=Main Member=R8
+Removed Member From Class: ClassName=Main Member=U1
+Removed Member From Class: ClassName=Main Member=U2
+Removed Member From Class: ClassName=Main Member=USB1
+Removed Member From Class: ClassName=Main Member=VT1
+Removed Member From Class: ClassName=Main Member=VT2
+Added Component: Designator=JP1(CONN-SMD_6P-P1.25_DEALON_1.25-6PWB)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=GND Pin=JP1-1
+Added Pin To Net: NetName=GPIO0 Pin=JP1-2
+Added Pin To Net: NetName=EN Pin=JP1-3
+Added Pin To Net: NetName=CP_Rx Pin=JP1-4
+Added Pin To Net: NetName=CP_Tx Pin=JP1-5
+Added Pin To Net: NetName=VCC_3V3 Pin=JP1-6
+Added Pin To Net: NetName=GPIO0 Pin=K2-2
+Added Pin To Net: NetName=GPIO0 Pin=K2-4
+Added Pin To Net: NetName=GPIO0 Pin=R1-1
+Added Pin To Net: NetName=3V3A Pin=R1-2
+Change Net Name : Old Net Name=CP_Rx New Net Name=TXD
+Change Net Name : Old Net Name=CP_Tx New Net Name=RXD
+Added Member To Class: ClassName=Main Member=Component JP1 SPI1

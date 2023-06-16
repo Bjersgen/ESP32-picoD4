@@ -1,0 +1,55 @@
+Removed Pin From Net: NetName=VBUS Pin=1-2
+Removed Pin From Net: NetName=GND Pin=U4-49
+Added Component: Designator=RP1(RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RP2(RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RP3(RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL)
+Add component. Clean all parameters for all variants
+Added Component: Designator=RP4(RES-ARRAY-SMD_0603-8P-L3.2-W1.6-BL)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=VCC_3V3 Pin=1-2
+Added Pin To Net: NetName=GPIO22 Pin=RP1-5
+Added Pin To Net: NetName=GPIO21 Pin=RP1-6
+Added Pin To Net: NetName=GPIO19 Pin=RP1-7
+Added Pin To Net: NetName=GPIO18 Pin=RP1-8
+Added Pin To Net: NetName=GND Pin=RP2-5
+Added Pin To Net: NetName=GND Pin=RP2-6
+Added Pin To Net: NetName=GND Pin=RP2-7
+Added Pin To Net: NetName=GND Pin=RP2-8
+Added Pin To Net: NetName=GPIO27 Pin=RP3-5
+Added Pin To Net: NetName=GPIO26 Pin=RP3-6
+Added Pin To Net: NetName=GPIO25 Pin=RP3-7
+Added Pin To Net: NetName=GPIO23 Pin=RP3-8
+Added Pin To Net: NetName=GND Pin=RP4-5
+Added Pin To Net: NetName=GND Pin=RP4-6
+Added Pin To Net: NetName=GND Pin=RP4-7
+Added Pin To Net: NetName=GND Pin=RP4-8
+Added Pin To Net: NetName=NetRP1_1 Pin=RP1-1
+Added Pin To Net: NetName=NetRP1_1 Pin=RP2-1
+Added Net: Name=NetRP1_1
+Added Pin To Net: NetName=NetRP1_2 Pin=RP1-2
+Added Pin To Net: NetName=NetRP1_2 Pin=RP2-2
+Added Net: Name=NetRP1_2
+Added Pin To Net: NetName=NetRP1_3 Pin=RP1-3
+Added Pin To Net: NetName=NetRP1_3 Pin=RP2-3
+Added Net: Name=NetRP1_3
+Added Pin To Net: NetName=NetRP1_4 Pin=RP1-4
+Added Pin To Net: NetName=NetRP1_4 Pin=RP2-4
+Added Net: Name=NetRP1_4
+Added Pin To Net: NetName=NetRP3_1 Pin=RP3-1
+Added Pin To Net: NetName=NetRP3_1 Pin=RP4-1
+Added Net: Name=NetRP3_1
+Added Pin To Net: NetName=NetRP3_2 Pin=RP3-2
+Added Pin To Net: NetName=NetRP3_2 Pin=RP4-2
+Added Net: Name=NetRP3_2
+Added Pin To Net: NetName=NetRP3_3 Pin=RP3-3
+Added Pin To Net: NetName=NetRP3_3 Pin=RP4-3
+Added Net: Name=NetRP3_3
+Added Pin To Net: NetName=NetRP3_4 Pin=RP3-4
+Added Pin To Net: NetName=NetRP3_4 Pin=RP4-4
+Added Net: Name=NetRP3_4
+Added Member To Class: ClassName=Main Member=Component RP1 4D03WGJ0102T5E
+Added Member To Class: ClassName=Main Member=Component RP2 YC164-JR-075K1L
+Added Member To Class: ClassName=Main Member=Component RP3 4D03WGJ0102T5E
+Added Member To Class: ClassName=Main Member=Component RP4 YC164-JR-075K1L
