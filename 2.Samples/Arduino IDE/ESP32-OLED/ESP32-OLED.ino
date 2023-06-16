@@ -8,6 +8,7 @@ U8G2_SSD1306_128X64_NONAME_F_HW_I2C u8g2(U8G2_R0, /* reset=*/ U8X8_PIN_NONE, /* 
 
 void setup(void)
 {
+    Serial.begin(9600);
     u8g2.begin();
     u8g2.enableUTF8Print();        // enable UTF8 support for the Arduino print() function
     pinMode(18,INPUT);
@@ -34,12 +35,14 @@ void loop(void)
     u8g2.print("车号:");        // Chinese "Hello World"
     u8g2.print(b);
     u8g2.sendBuffer();
-
-    delay(1000);
+    uint8_t buffer[2];
+    buffer[0] =0xf0 + a;
+    buffer[1] =0xa0 + b;
+    Serial.write(buffer,2);
+    delay(100);
 }
 
 int GetFre(){
-
   return digitalRead(26)*8+digitalRead(25)*4+digitalRead(33)*2+digitalRead(32);
 }
 
