@@ -32,12 +32,12 @@ void loop(void)
     u8g2.print("频点:");
     u8g2.print(a);
     u8g2.setCursor(0, 40);
-    u8g2.print("车号:");        // Chinese "Hello World"
+    u8g2.print("车号:");        // Chinese
     u8g2.print(b);
     u8g2.sendBuffer();
     uint8_t buffer[2];
-    buffer[0] = 0xf0 + a;
-    buffer[1] = 0xa0 + b;
+    buffer[0] = 0xf0 + a;      //频点
+    buffer[1] = 0xa0 + b;      //车号
     Serial.write(buffer,2);
     delay(100);
 }
